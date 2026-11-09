@@ -1,19 +1,19 @@
 {
-  "name": "emi",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "techy-software-website",
+  "version": "2.0.0",
+  "description": "Responsive company website with contact and feedback forms backed by an Express server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["express", "website", "contact-form"],
+  "author": "Sathvik Raju Pothureddy",
+  "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2",
-    "mongoose": "^8.1.1",
-    "nodemon": "^3.0.3"
-  },
-  "description": ""
+    "express": "^4.21.2"
+  }
 }
